@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E50CD4B3-725C-4855-B451-359050382A51}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CSharpProgrammingJourney</RootNamespace>
+    <AssemblyName>CSharpProgrammingJourney</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassesAndMethods\AttributeChallenge.cs" />
+    <Compile Include="ClassesAndMethods\Constructor.cs" />
+    <Compile Include="ClassesAndMethods\Members.cs" />
+    <Compile Include="ClassesAndMethods\MethodsWithReturn.cs" />
+    <Compile Include="ClassesAndMethods\NamedParameters.cs" />
+    <Compile Include="ClassesAndMethods\Params.cs" />
+    <Compile Include="ClassesAndMethods\Person.cs" />
+    <Compile Include="ClassesAndMethods\StaticAttributes.cs" />
+    <Compile Include="ClassesAndMethods\StaticMethods.cs" />
+    <Compile Include="ControlStructures\StructureDoWhile.cs" />
+    <Compile Include="ControlStructures\StructureFor.cs" />
+    <Compile Include="ControlStructures\StructureForEach.cs" />
+    <Compile Include="ControlStructures\StructureIf.cs" />
+    <Compile Include="ControlStructures\StructureIfElse.cs" />
+    <Compile Include="ControlStructures\StructureIfElseIf.cs" />
+    <Compile Include="ControlStructures\StructureSwitch.cs" />
+    <Compile Include="ControlStructures\StructureWhile.cs" />
+    <Compile Include="ControlStructures\UsingBreak.cs" />
+    <Compile Include="ControlStructures\UsingContinue.cs" />
+    <Compile Include="ExerciseCenter.cs" />
+    <Compile Include="Fundamentals\ArithmeticOperators.cs" />
+    <Compile Include="Fundamentals\AssignmentOperators.cs" />
+    <Compile Include="Fundamentals\Comments.cs" />
+    <Compile Include="Fundamentals\Conversions.cs" />
+    <Compile Include="Fundamentals\DotNotation.cs" />
+    <Compile Include="Fundamentals\FormattingNumbers.cs" />
+    <Compile Include="Fundamentals\HelloWord.cs" />
+    <Compile Include="Fundamentals\Inference.cs" />
+    <Compile Include="Fundamentals\LogicalOperators.cs" />
+    <Compile Include="Fundamentals\ReadingData.cs" />
+    <Compile Include="Fundamentals\RelationalOperators.cs" />
+    <Compile Include="Fundamentals\StringInterpolation.cs" />
+    <Compile Include="Fundamentals\TernaryOperator.cs" />
+    <Compile Include="Fundamentals\Test.cs" />
+    <Compile Include="Fundamentals\UnaryOperators.cs" />
+    <Compile Include="Fundamentals\VariablesAndConstants.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Notes.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

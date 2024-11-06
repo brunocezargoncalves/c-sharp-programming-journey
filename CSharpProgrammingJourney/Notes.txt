@@ -1,0 +1,55 @@
+Liguagem natural vs. liguagem artificial (liguagem de programação)
+
+Utilizamos liguagem artificial por causa das ambiguidade das liguagens naturais. Para escrever programas precisamos ser mais precisos, 
+logo, nas liguagens artificiais, existem poucas ou apenas uma forma de dizer algo.
+
+
+Algoritmos
+
+Algoritmos estão relacionados diretamente com os estudos da lógica. Lógica é estudado em filosofia e matematica.
+Um algoritmo é uma sequência de passos, podendo estes estar condicionados ou serem repetidos de acordo com uma determinada condição.
+
+Um algoritmo pode conter entradas, processamento e saída - no cenário mais completo.
+
+Um algotitmo pode sofrer alterações de acordo com a linguagem de programação utilizada. Em liguagens mais próximas do hardware do computador (baixo nível), menos "natua" ela será.
+Quando mais próxima do ser humano (alto nível), mais fácil de enteder.
+
+
+Estrutura de dados
+
+Estrutura de dados é diferente de dados. Uma estrutura de dados é a forma como os dados são organizados, ela define regras como os dados estão estruturados. 
+A lista, por exemplo, é uma estrutura de dados. A fila (FIFO - first in first out), a pilha (LIFO - last in first out) e a árvore também são estruturas de dados clássicas. 
+Outros exemplos de estrutura de dados mais simples/primitivas são: número real, alfabeto, números inteiros, boleanos. 
+
+Dentro de um programa podemos criar estruturas de dados personalizadas.
+
+
+.NET vs. C#
+
+O Framework .NET é um arcabouso/conjunto de funcionalidades - é a estrutura, e o C# é uma das linguagens que podemos utlizar para construir soluções com este framework.
+
+O .NET é multiplataforma (Win, Mac, Lix). O .NET é dividido em duas grandes partes: o CLR (Commom Language Runtime) e LIB (bibliotecas que utilizamos para desenvolver).
+
+
+CLR (Commom Language Runtime)
+
+O CLR é uma máquina virtual intermediaria, é um tradutor que torna o .NET multiplataforma. 
+O IL CODE (Intermidia Language Code), o código intermediário gerado, é enviado para os diferentes dispositivos com a técnica de compilação em tempo de execução JIT (Just In Time Compile) para que possa ser executado. Os dispositivos apenas precisam ter o Run Time .NET compatível.
+
+
+Arquitetura de solução .NET
+
+Solução (aplicação) -> Projeto (assembly - .EXE ou .DLL (Dynamic Link Library)) -> Pastas/Namespace -> Aquivos/Class
+
+
+Anotação PascelCase é comum em soluçÕes .NET
+
+--------------------
+
+Classe é um tipo personalizado composto por identificador (nome) e valores (atibutos e comportamento), 
+assim como os diferentes tipos básicos (int, bool, etc), mas se comporta como molde para suas instâncias, os objetos. 
+
+Antes da POO existia uma divisão clara entre dados e funções. Em POO os objetos possuem um conjunto de membros - atributos e comportamentos.
+
+O código C# é centrado em classe, atributos e comportamentos (métodos) sempre estarão ligados a alguma classe.
+
