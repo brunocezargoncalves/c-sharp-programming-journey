@@ -45,13 +45,25 @@
   <ItemGroup>
     <Compile Include="ClassesAndMethods\AttributeChallenge.cs" />
     <Compile Include="ClassesAndMethods\Constructor.cs" />
+    <Compile Include="ClassesAndMethods\ExempleEnum.cs" />
+    <Compile Include="ClassesAndMethods\ExempleStruct.cs" />
+    <Compile Include="ClassesAndMethods\GettersAndSetters.cs" />
     <Compile Include="ClassesAndMethods\Members.cs" />
     <Compile Include="ClassesAndMethods\MethodsWithReturn.cs" />
     <Compile Include="ClassesAndMethods\NamedParameters.cs" />
+    <Compile Include="ClassesAndMethods\ParameterDefaultValue.cs" />
+    <Compile Include="ClassesAndMethods\ParametersRefOut.cs" />
     <Compile Include="ClassesAndMethods\Params.cs" />
     <Compile Include="ClassesAndMethods\Person.cs" />
+    <Compile Include="ClassesAndMethods\Props.cs" />
+    <Compile Include="ClassesAndMethods\Readonly.cs" />
     <Compile Include="ClassesAndMethods\StaticAttributes.cs" />
     <Compile Include="ClassesAndMethods\StaticMethods.cs" />
+    <Compile Include="ClassesAndMethods\StructVsClass.cs" />
+    <Compile Include="Collections\ExempleArray.cs" />
+    <Compile Include="Collections\ExempleArrayList.cs" />
+    <Compile Include="Collections\ExempleHashSet.cs" />
+    <Compile Include="Collections\ExempleList.cs" />
     <Compile Include="ControlStructures\StructureDoWhile.cs" />
     <Compile Include="ControlStructures\StructureFor.cs" />
     <Compile Include="ControlStructures\StructureForEach.cs" />
@@ -76,7 +88,6 @@
     <Compile Include="Fundamentals\RelationalOperators.cs" />
     <Compile Include="Fundamentals\StringInterpolation.cs" />
     <Compile Include="Fundamentals\TernaryOperator.cs" />
-    <Compile Include="Fundamentals\Test.cs" />
     <Compile Include="Fundamentals\UnaryOperators.cs" />
     <Compile Include="Fundamentals\VariablesAndConstants.cs" />
     <Compile Include="Program.cs" />

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using CSharpProgrammingJourney.ClassesAndMethods;
+using CSharpProgrammingJourney.Collections;
 using CSharpProgrammingJourney.ControlStructures;
 using CSharpProgrammingJourney.Fundamentals;
 
@@ -28,7 +29,6 @@ namespace CSharpProgrammingJourney
                 {"Fundamentos - Operadores de Atribuição", AssignmentOperators.Execute},
                 {"Fundamentos - Operadores Unários", UnaryOperators.Execute},
                 {"Fundamentos - Operador Ternário", TernaryOperator.Execute},
-                {"Fundamentos - Testes", Test.Execute},
 
                 // Estruturas de controle
                 {"Estruturas de Controle - If", StructureIf.Execute},
@@ -51,6 +51,19 @@ namespace CSharpProgrammingJourney
                 {"Classes, Atibutos e Métodos - Desafio Atributos", AttributeChallenge.Execute},
                 {"Classes, Atibutos e Métodos - Params", Params.Execute},
                 {"Classes, Atibutos e Métodos - Parâmetros nomeados", NamedParameters.Execute},
+                {"Classes, Atibutos e Métodos - Getters & Setters", GettersAndSetters.Execute},
+                {"Classes, Atibutos e Métodos - Props", Props.Execute},
+                {"Classes, Atibutos e Métodos - Readonly", Readonly.Execute},
+                {"Classes, Atibutos e Métodos - Enum", ExempleEnum.Execute},
+                {"Classes, Atibutos e Métodos - Struct", ExempleStruct.Execute},
+                {"Classes, Atibutos e Métodos - Struct vs. Class", StructVsClass.Execute},
+                {"Classes, Atibutos e Métodos - Parâmetro com valor padrão", ParameterDefaultValue.Execute},
+
+                // Coleções
+                {"Coleções - Array", ExempleArray.Execute},
+                {"Coleções - List", ExempleList.Execute},
+                {"Coleções - ArrayList", ExempleArrayList.Execute},
+                {"Coleções - HashSet", ExempleHashSet.Execute},
             });
 
             center.SelectAndRun();
