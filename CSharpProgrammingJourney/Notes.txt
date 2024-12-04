@@ -4,6 +4,7 @@ Utilizamos liguagem artificial por causa das ambiguidade das liguagens naturais.
 logo, nas liguagens artificiais, existem poucas ou apenas uma forma de dizer algo.
 
 
+
 Algoritmos
 
 Algoritmos estão relacionados diretamente com os estudos da lógica. Lógica é estudado em filosofia e matematica.
@@ -15,6 +16,7 @@ Um algotitmo pode sofrer alterações de acordo com a linguagem de programação uti
 Quando mais próxima do ser humano (alto nível), mais fácil de enteder.
 
 
+
 Estrutura de dados
 
 Estrutura de dados é diferente de dados. Uma estrutura de dados é a forma como os dados são organizados, ela define regras como os dados estão estruturados. 
@@ -22,6 +24,7 @@ A lista, por exemplo, é uma estrutura de dados. A fila (FIFO - first in first ou
 Outros exemplos de estrutura de dados mais simples/primitivas são: número real, alfabeto, números inteiros, boleanos. 
 
 Dentro de um programa podemos criar estruturas de dados personalizadas.
+
 
 
 .NET vs. C#
@@ -37,6 +40,7 @@ O CLR é uma máquina virtual intermediaria, é um tradutor que torna o .NET multip
 O IL CODE (Intermidia Language Code), o código intermediário gerado, é enviado para os diferentes dispositivos com a técnica de compilação em tempo de execução JIT (Just In Time Compile) para que possa ser executado. Os dispositivos apenas precisam ter o Run Time .NET compatível.
 
 
+
 Arquitetura de solução .NET
 
 Solução (aplicação) -> Projeto (assembly - .EXE ou .DLL (Dynamic Link Library)) -> Pastas/Namespace -> Aquivos/Class
@@ -44,7 +48,6 @@ Solução (aplicação) -> Projeto (assembly - .EXE ou .DLL (Dynamic Link Library)) 
 
 Anotação PascelCase é comum em soluçÕes .NET
 
---------------------
 
 Classe é um tipo personalizado composto por identificador (nome) e valores (atibutos e comportamento), 
 assim como os diferentes tipos básicos (int, bool, etc), mas se comporta como molde para suas instâncias, os objetos. 
@@ -53,3 +56,14 @@ Antes da POO existia uma divisão clara entre dados e funções. Em POO os objetos 
 
 O código C# é centrado em classe, atributos e comportamentos (métodos) sempre estarão ligados a alguma classe.
 
+
+
+Pilares da OO 
+
+Paradgma é como a liguagem se organiza.
+
+Pilares:
+- Abstração: abstrair a modelagem de acordo com aquilo que é relevante no contexto do problema que está sendo resolvido, no contexto do sistema que está sendo desenvolvido.
+- Herança/Composição: possibilita o reuso de código por duas estratégias: composição ou herança. "[algo] É UM(A) [algo]" muito provavelmente é uma relação de herança. "[algo] TEM UM(A) [algo]" é uma relação de composição. O C# não permite heranças multiplas.
+- Encapsulamento: capacidade esconder/ocultar parte do código para manter uma relação mais saudável entre os objetos. Definir bem elementos de visibilidade para gerenciar melhor dependências, e diminuir efeitos colaterais. Diz respeito a conhecer apenas a interface de comunicação.
+- Polimorfismo: dois tipos - 1. Estática: sobrecarga de métodos, por exemplo. 2. Dinâmica: instância de objetos de forma ou através de um tipo mais genérico, que fornece herança a objetos mais específicos (ex.: carro > uno).

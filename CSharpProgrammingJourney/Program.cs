@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using CSharpProgrammingJourney.ClassesAndMethods;
 using CSharpProgrammingJourney.Collections;
 using CSharpProgrammingJourney.ControlStructures;
+using CSharpProgrammingJourney.Exceptions;
 using CSharpProgrammingJourney.Fundamentals;
+using CSharpProgrammingJourney.MethodsAndFunctions;
+using CSharpProgrammingJourney.OO;
 
 namespace CSharpProgrammingJourney
 {
@@ -64,6 +67,32 @@ namespace CSharpProgrammingJourney
                 {"Coleções - List", ExempleList.Execute},
                 {"Coleções - ArrayList", ExempleArrayList.Execute},
                 {"Coleções - HashSet", ExempleHashSet.Execute},
+                {"Coleções - Queue (fila)", ExempleQueue.Execute},
+                {"Coleções - Igualdade de objetos", EqualityOfObjects.Execute},
+                {"Coleções - Stack (pilha)", ExempleStack.Execute},
+                {"Coleções - Dictionary", ExempleDictionary.Execute},
+
+                // OO
+                {"Orientação Objetos - Herança",  Inheritance.Execute},
+                {"Orientação Objetos - Construtor This",  ThisConstructor.Execute},
+                {"Orientação Objetos - Encapsulamento", CSharpProgrammingJourney.OO.Encapsulation.Execute},
+                {"Orientação Objetos - Sem Polimorfismo", NoPolymorphism.Execute},
+                {"Orientação Objetos - Com Polimorfismo", WithPolymorphism.Execute},
+                {"Orientação Objetos - Abstração", Abstract.Execute},
+                {"Orientação Objetos - Interface", Interface.Execute},
+                {"Orientação Objetos - Sealed", Sealed.Execute},                
+
+                // Métodos e Funções
+                {"Métodos e Funções - Lambda", Lambda.Execute},
+                {"Métodos e Funções - Lambda Delegate", LambdaDelegate.Execute},
+                {"Métodos e Funções - Usando Delegate", UsingDelegate.Execute},
+                {"Métodos e Funções - Delegate com função anônima", DelegatesWithAnonymousFunctions.Execute},
+                {"Métodos e Funções - Passando Delegate como parâmetro", PassingDelegateAsParameter.Execute},
+                {"Métodos e Funções - Métodos de Extensão", ExtensionMethods.Execute},
+
+                // Exceções
+                {"Exceções - Primeiro Exemplo", FirstException.Execute},                
+                {"Exceções - Customizada", CustomException.Execute},                
             });
 
             center.SelectAndRun();

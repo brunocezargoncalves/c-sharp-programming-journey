@@ -21,6 +21,7 @@ namespace CSharpProgrammingJourney.Collections
             {
                 new Product("Camisa", 29.9),
                 new Product("Caneca", 12.9),
+                new Product("Poster", 19.9),
                 new Product("Poster", 19.9)
             };
 

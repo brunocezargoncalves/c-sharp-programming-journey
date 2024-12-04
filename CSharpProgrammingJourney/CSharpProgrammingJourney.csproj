@@ -32,7 +32,13 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Bcl.HashCode, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.HashCode.6.0.0\lib\net462\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -60,10 +66,14 @@
     <Compile Include="ClassesAndMethods\StaticAttributes.cs" />
     <Compile Include="ClassesAndMethods\StaticMethods.cs" />
     <Compile Include="ClassesAndMethods\StructVsClass.cs" />
+    <Compile Include="Collections\EqualityOfObjects.cs" />
     <Compile Include="Collections\ExempleArray.cs" />
     <Compile Include="Collections\ExempleArrayList.cs" />
+    <Compile Include="Collections\ExempleDictionary.cs" />
     <Compile Include="Collections\ExempleHashSet.cs" />
     <Compile Include="Collections\ExempleList.cs" />
+    <Compile Include="Collections\ExempleQueue.cs" />
+    <Compile Include="Collections\ExempleStack.cs" />
     <Compile Include="ControlStructures\StructureDoWhile.cs" />
     <Compile Include="ControlStructures\StructureFor.cs" />
     <Compile Include="ControlStructures\StructureForEach.cs" />
@@ -74,6 +84,8 @@
     <Compile Include="ControlStructures\StructureWhile.cs" />
     <Compile Include="ControlStructures\UsingBreak.cs" />
     <Compile Include="ControlStructures\UsingContinue.cs" />
+    <Compile Include="Exceptions\CustomException.cs" />
+    <Compile Include="Exceptions\FirstException.cs" />
     <Compile Include="ExerciseCenter.cs" />
     <Compile Include="Fundamentals\ArithmeticOperators.cs" />
     <Compile Include="Fundamentals\AssignmentOperators.cs" />
@@ -90,14 +102,35 @@
     <Compile Include="Fundamentals\TernaryOperator.cs" />
     <Compile Include="Fundamentals\UnaryOperators.cs" />
     <Compile Include="Fundamentals\VariablesAndConstants.cs" />
+    <Compile Include="MethodsAndFunctions\DelegatesWithAnonymousFunctions.cs" />
+    <Compile Include="MethodsAndFunctions\ExtensionMethods.cs" />
+    <Compile Include="MethodsAndFunctions\Lambda.cs" />
+    <Compile Include="MethodsAndFunctions\LambdaDelegate.cs" />
+    <Compile Include="MethodsAndFunctions\PassingDelegateAsParameter.cs" />
+    <Compile Include="MethodsAndFunctions\UsingDelegate.cs" />
+    <Compile Include="OO\Abstract.cs" />
+    <Compile Include="OO\Encapsulation.cs" />
+    <Compile Include="OO\Inheritance.cs" />
+    <Compile Include="OO\Interface.cs" />
+    <Compile Include="OO\NoPolymorphism.cs" />
+    <Compile Include="OO\Sealed.cs" />
+    <Compile Include="OO\ThisConstructor.cs" />
+    <Compile Include="OO\WithPolymorphism.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Notes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Encapsulation1\Encapsulation.csproj">
+      <Project>{dcc52395-27fc-468a-814b-79c95d585d72}</Project>
+      <Name>Encapsulation</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

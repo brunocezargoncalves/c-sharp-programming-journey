@@ -1,22 +1,41 @@
-﻿using System;
+﻿using CSharpProgrammingJourney.ClassesAndMethods;
+using System;
 using System.Collections.Generic;
 
 namespace CSharpProgrammingJourney.Collections
 {
-    class ExempleList
+    public class Product
     {
-        public class Product
+        public string Name;
+        public double Price;
+
+        public Product() { }
+
+        public Product(string name, double price)
         {
-            public string Name;
-            public double Price;
+            Name = name;
+            Price = price;
+        }
 
-            public Product(string name, double price)
+        public override bool Equals(object obj)
+        {
+            if (obj == null || GetType() != obj.GetType())
             {
-                Name = name;
-                Price = price;
+                return false;
             }
-        }        
 
+            Product product = (Product)obj;
+            return Name == product.Name && Price == product.Price;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Name, Price);
+        }
+    }
+
+    class ExempleList
+    {      
         public static void Execute()
         {
             var book = new Product("Game of Throne", 49.9);
