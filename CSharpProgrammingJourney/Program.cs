@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using CSharpProgrammingJourney.API;
 using CSharpProgrammingJourney.ClassesAndMethods;
 using CSharpProgrammingJourney.Collections;
 using CSharpProgrammingJourney.ControlStructures;
@@ -92,7 +93,11 @@ namespace CSharpProgrammingJourney
 
                 // Exceções
                 {"Exceções - Primeiro Exemplo", FirstException.Execute},                
-                {"Exceções - Customizada", CustomException.Execute},                
+                {"Exceções - Customizada", CustomException.Execute},  
+                
+                // API
+                {"API - Primeiro arquivo", FirstFile.Execute}, 
+                {"API - Lendo arquivos", ReadingFiles.Execute}, 
             });
 
             center.SelectAndRun();

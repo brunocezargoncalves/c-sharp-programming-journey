@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\FirstFile.cs" />
     <Compile Include="ClassesAndMethods\AttributeChallenge.cs" />
     <Compile Include="ClassesAndMethods\Constructor.cs" />
     <Compile Include="ClassesAndMethods\ExempleEnum.cs" />
